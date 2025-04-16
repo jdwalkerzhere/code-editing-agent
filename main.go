@@ -15,6 +15,7 @@ import (
 )
 
 func main() {
+	// Expects an ANTHROPIC_API_KEY environment variable, you can also `export` this in shell
 	godotenv.Load()
 	client := anthropic.NewClient()
 
